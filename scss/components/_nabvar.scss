@@ -1,0 +1,63 @@
+
+/*NAVBAR*/
+
+.logozora img{
+    height: 100%;
+    width: 500px;
+    display: block;
+
+
+}
+
+.logozora img:hover{
+box-shadow: black;
+transition: 0.1s;
+}
+
+.nav {
+    align-items: center;
+    height: 10%;
+    list-style: none;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+
+.nav-list {
+    
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    font-size: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+}
+
+
+
+.nav-link {
+    background-color: $firstColor;
+    align-items: center;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    
+    border: 2px solid $secondColor;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+
+
+
+
+   

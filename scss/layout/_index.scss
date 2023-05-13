@@ -1,0 +1,86 @@
+/*MAIN INDEX*/ 
+
+
+
+.logozora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logozora:hover{
+    transform: scale(1.2, 1.2);
+    
+}
+
+.fraseindex:hover{
+    transform: scale(1.2, 1.2);
+    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1%;
+
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+ grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas: 
+       'productos      sobre-nosotros'
+       'zora-circular  contacto';
+
+}
+
+
+.productos{
+  grid-area: productos;
+    background-color: $firstColor;
+    background-image: url("../multimedia/index/fondoindex.png");
+
+}
+
+
+.sobre-nosotros{
+grid-area: sobre-nosotros;
+  
+    background-image: url("../multimedia/index/fondoindex.png");
+}
+
+.zora-circular{
+    grid-area: zora-circular;
+  
+    background-image: url("../multimedia/index/zoracircularr.jpg");
+}
+
+
+.contacto{
+    grid-area: contacto;
+    background-image: url("../multimedia/index/fondoindex.png");
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    margin: 3%;
+}
+
+.nav-nav{
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
